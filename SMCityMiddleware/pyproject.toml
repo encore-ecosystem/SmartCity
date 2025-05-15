@@ -1,0 +1,14 @@
+[project]
+name = "smcitymiddleware"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "tqdm>=4.67.1",
+    "experimentator",
+    "platescanner",
+]
+
+[tool.uv.sources]
+experimentator = { git = "https://github.com/encore-ecosystem/Experimentator", branch = "basic_usage" }
+platescanner = { git = "https://github.com/encore-ecosystem/PlateScanner", branch = "nightly" }
