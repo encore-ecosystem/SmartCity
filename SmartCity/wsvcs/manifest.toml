@@ -1,0 +1,12 @@
+[project]
+name = "NeoSmart"
+authors = [
+    "unknown",
+]
+licence = "MIT"
+ignore = [
+    "wsvcs/.wsvcsignore",
+]
+
+[sync]
+server = "213.171.25.34:8765"
