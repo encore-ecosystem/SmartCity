@@ -1,6 +1,8 @@
+.torchhub
 .idea
 .venv
 .experimentator
-.torchhub
 Datasets
 __pycache__
+
+model_weights/detector/poc_yolo11x.pt
