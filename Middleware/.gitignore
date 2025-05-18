@@ -1,2 +1,6 @@
 .idea
 .venv
+.experimentator
+.torchhub
+Datasets
+__pycache__
