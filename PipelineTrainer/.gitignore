@@ -1,0 +1,6 @@
+.experimentator
+.torchhub
+.venv
+datasets
+.vscode
+__pycache__

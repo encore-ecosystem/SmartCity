@@ -1,0 +1,14 @@
+[project]
+name = "pipelinetrainer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "experimentator",
+    "platescanner",
+]
+
+[tool.uv.sources]
+experimentator = { git = "https://github.com/encore-ecosystem/Experimentator.git", branch = "basic_usage" }
+platescanner = { git = "https://github.com/encore-ecosystem/PlateScanner", branch = "nightly" }
