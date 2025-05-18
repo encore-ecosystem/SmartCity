@@ -1,0 +1,24 @@
+{
+    "Detection": {
+        "bboxes": [
+            {
+                "superclasses": [],
+                "bbox_type": "bb",
+                "class_name": "plate",
+                "points": [
+                    0.37552242279052733,
+                    0.6356536865234375,
+                    0.47123050689697266,
+                    0.6910651312934027
+                ],
+                "recognition_text": "B078PETU5"
+            }
+        ],
+        "keypoints": []
+    },
+    "Segmentation": {
+        "polygons": [
+            []
+        ]
+    }
+}
