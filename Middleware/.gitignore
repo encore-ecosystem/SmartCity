@@ -4,5 +4,5 @@
 .experimentator
 __pycache__
 
-model_weights/detector/poc_yolo11x.pt
+weights
 datasets
