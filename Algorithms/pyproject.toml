@@ -3,5 +3,13 @@ name = "algorithms"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+requires-python = ">=3.13"
+dependencies = [
+    "albumentations>=2.0.7",
+    "experimentator",
+    "pillow>=11.2.1",
+    "ultralytics>=8.3.140",
+]
+
+[tool.uv.sources]
+experimentator = { git = "https://github.com/encore-ecosystem/Experimentator", branch = "basic_usage" }

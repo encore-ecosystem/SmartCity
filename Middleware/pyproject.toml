@@ -7,8 +7,10 @@ dependencies = [
     "tqdm>=4.67.1",
     "experimentator",
     "platescanner",
+    "cvtk",
 ]
 
 [tool.uv.sources]
 experimentator = { git = "https://github.com/encore-ecosystem/Experimentator", branch = "basic_usage" }
 platescanner = { git = "https://github.com/encore-ecosystem/PlateScanner", branch = "nightly" }
+cvtk = { git = "https://github.com/encore-ecosystem/cvtk", branch = "basic_usage" }

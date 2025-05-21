@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        ".torchhub": true,
+        ".venv": true,
+        "src/__pycache__": true,
+        "src/models/base/__pycache__": true,
+        "src/models/detector/__pycache__": true,
+        "src/pipeline/__pycache__": true
+    }
+}

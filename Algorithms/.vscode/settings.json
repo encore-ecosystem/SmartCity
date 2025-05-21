@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        ".venv": true,
+        ".python-version": true,
+        "README.md": true,
+        "models/recognizer/__pycache__": true,
+        "models/base/__pycache__": true
+    }
+}
